@@ -1,14 +1,25 @@
-import { StyleSheet, Text, View } from 'react-native';
-import React from 'react';
+// Importing Library
+import { useState } from 'react';
+import { View, SafeAreaView, FlatList, Text, StyleSheet } from 'react-native';
+
+// Importing Components
+import { FocusedStatusBar } from '../../components/Layout';
+
+// Importing Constants
+import { COLORS, NFTData } from '../../constants';
 
 const Home = () => {
     return (
-        <View>
-            <Text>Home</Text>
-        </View>
+        <SafeAreaView style={styles.safeAreaContainer}>
+            <FocusedStatusBar background={COLORS.primary} />
+        </SafeAreaView>
     );
 };
 
 export default Home;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+    safeAreaContainer: {
+        flex: 1,
+    },
+});

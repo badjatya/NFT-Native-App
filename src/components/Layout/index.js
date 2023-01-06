@@ -1,1 +1,4 @@
-export { default as FocusedStatusBar } from './FocusedStatusBar';
+import FocusedStatusBar from './FocusedStatusBar';
+import { CircleButton } from './Button';
+
+export { FocusedStatusBar, CircleButton };

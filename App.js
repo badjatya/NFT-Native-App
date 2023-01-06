@@ -20,11 +20,11 @@ const theme = {
 export default function App() {
     // Loading Font
     const [loaded] = useFonts({
-        InterBold: require('./assets/fonts/Inter-Bold.ttf'),
-        InterSemiBold: require('./assets/fonts/Inter-SemiBold.ttf'),
-        InterMedium: require('./assets/fonts/Inter-Medium.ttf'),
-        InterRegular: require('./assets/fonts/Inter-Regular.ttf'),
-        InterLight: require('./assets/fonts/Inter-Light.ttf'),
+        InterBold: require('./src/assets/fonts/Inter-Bold.ttf'),
+        InterSemiBold: require('./src/assets/fonts/Inter-SemiBold.ttf'),
+        InterMedium: require('./src/assets/fonts/Inter-Medium.ttf'),
+        InterRegular: require('./src/assets/fonts/Inter-Regular.ttf'),
+        InterLight: require('./src/assets/fonts/Inter-Light.ttf'),
     });
 
     // If font not loaded returning null
